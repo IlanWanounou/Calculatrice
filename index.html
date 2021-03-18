@@ -4,10 +4,12 @@
 <head>
 
     <meta charset="UTF-8">
-        <meta utf="8">
-        <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <meta utf="8">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Calculatrice</title>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <link rel="icon" href="favicon.ico">
 </head>
 
@@ -15,13 +17,13 @@
     <h1>Projet calculatrice en cours...</h1>
     <div class="calculator">
 
-        <input type="text" class="calculator-screen" disabled />
+        <input autocomplete="off" class="calculator-screen" />
 
         <div class="touche">
             <button class="operator" value="-">&divide;</button>
             <button class="operator" value="*">&times;</button>
             <button class="operator" value="/">-</button>
-            <button class="operator" class="plus" value="+">+</button>
+            <button class="plus operator" value="+">+</button>
 
 
 
@@ -34,7 +36,7 @@
             <button value="5">5</button>
             <button value="6">6</button>
 
-
+            
             <button value="1">1</button>
             <button value="2">2</button>
             <button value="3">3</button>
@@ -46,7 +48,16 @@
             <button class="egal" value="=">=</button>
             <script src="index.js"></script>
         </div>
+        <!-- Place this tag where you want the button to render. -->
+        <!-- Place this tag where you want the button to render. -->
+        <div class="git">
+            <a class="github-button" href="https://github.com/IlanWanounou/Calculatrice/"
+                data-color-scheme="no-preference: dark;" data-size="large" data-show-count="false"
+                aria-label="Watch IlanWanounou/Calculatrice on GitHub">Depot</a>
+        </div>
     </div>
+
+
 </body>
 
 </html>
