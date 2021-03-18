@@ -7,6 +7,9 @@ touche.addEventListener('click', e => {
   if (!affiche.matches('button')) {
     return;
   }
+  if(affiche.matches(".operator")||affiche.matches(".plus")||affiche.matches(".egal")||affiche.matches(".decimal")) {
+    return;
+  }
   if (ecran.value === '0' && affiche.matches('.zero')) {
     ecran.value = affiche.value;
   } else {
