@@ -85,7 +85,6 @@ grid-row: 1/3;
   input {
     opacity: 1;
   }
-
   .AC {
     grid-area: 5/1/5/2;
   }
