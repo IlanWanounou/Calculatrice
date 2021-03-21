@@ -64,8 +64,9 @@ function calcul(val) {
       ecran.value = resultat;
       numA = resultat;
   } else if (numB !== "") {
-    numA = (numB);
+    numA = parseFloat(numB);
   } 
+
   numB = "";
   operation = val;
 };
