@@ -26,7 +26,9 @@ function calcul(val) {
   if (val === '=') {
 
       ecran.value = eval(ecran.value);
-  } else {
+  }else if(val==="AC") {
+    ecran.value="0";
+  }   else {
     ecran.value += val;
   }
 }
